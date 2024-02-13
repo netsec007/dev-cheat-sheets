@@ -2,4 +2,4 @@
 
 [Docker Cheat Sheet](https://cs.slackbluetide.com/docker-cs)
 
-[Linux Systems](https://cs.slackbluetide.com/linux-systems-cs)
+[Linux Systemd](https://cs.slackbluetide.com/linux-systemd-cs)
