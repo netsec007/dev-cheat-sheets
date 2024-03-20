@@ -1,7 +1,7 @@
 ### NMAP Scan Types
 
 | Scan Type	| Details |
-|__________ | __________ |
+| __________ | __________ |
 | TCP SCAN |	A TCP scan is used to ensure that a three-way handshake has been completed between you and a selected target system. Even though it is very noisy, a TCP scan can be detected with little to no effort. This is because the services may log the sender's IP address and may trigger an intrusion detection system. |
 UDP SCAN	The UDP scan checks whether there is any UDP port open and listens for incoming connections on the target machine. Contrary to TCP, UDP does not offer any way to cure a positive result by sending a response with a positive acknowledgment. As a result, UDP scans may sometimes produce false positives. This type of scan is usually quite slow because computers, in general, slow down their responses to this kind of traffic in order to be on the safe side.
 SYN SCAN	In a SYN scan, a TCP connection is established by first creating a SYN packet and sending it to the server. This is unlike a normal TCP scan, which just generates a SYN packet. The response to these specially crafted packets is also analyzed by Nmap to produce scan results.
