@@ -1,3 +1,10 @@
+<head>
+<style>
+Body  {  background-color:thistle;  }
+P  {  font-size:20px;  color:mediumblue;  }
+</style>
+</head>
+
 ## NMAP Scan Types
 
 | Scan Type	| Details |
