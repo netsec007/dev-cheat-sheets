@@ -14,7 +14,7 @@
 
 ## Target Specification
 
-| Switch |	Example	| Description |
+| Option |	Example	| Description |
 | --- | --- | --- |
 | | nmap 192.168.1.3	| Scan a specific IP address |
 |	| nmap 192.168.1.2 192.168.2.3	| Scan specific IP addresses |
@@ -27,7 +27,7 @@
 
 ## Scan Technique
 
-| Switch	| Example	| Description |
+| Option	| Example	| Description |
 | --- | --- | --- |
 | -sS	| nmap 192.167.1.2 -sS	| TCP SYN Scan |
 | -sT	| nmap 192.168.1.1 -sT	| TCP Connect Scan |
@@ -38,7 +38,7 @@
 
 ## Host Discovery
 
-| Switch	| Example	| Description |
+| Option	| Example	| Description |
 | --- | --- | --- |
 | -sL	| nmap 192.168.1.6-9 -sL	| Creates targets List only |
 | -sn	| nmap 192.168.1.2/29 -sn	| This disables port scans and does host discovery only |
@@ -51,7 +51,7 @@
 
 ## Port Specification
 
-| Switch	| Example	| Description |
+| Option	| Example	| Description |
 | --- | --- | --- |
 | -p	| nmap 192.168.1.9 -p 27	| Scan a specific port |
 | -p	| nmap 192.168.1.9 -p 27-100	| Scan a port range |
@@ -65,7 +65,7 @@
 
 ## Service and Version Detection
 
-| Switch	| Example	| Description |
+| Option	| Example	| Description |
 | --- | --- | --- |
 | -sV	| nmap 192.168.1.9 -sV	| Helps in determining the version of the service  |
 | -sV –version-intensity	| nmap 192.168.1.9 -sV -version-intensity 9	| To increase the Intensity level between 0 to 9. The higher the number higher is possibility of correctness |
@@ -75,16 +75,16 @@
 
 ## OS Detection
 
-| Switch	| Example	| Description |
+| Option	| Example	| Description |
 | --- | --- | --- |
-| -O	| nmap 192.168.1.8 -O	TCP/IP stack fingerprinting is used for remote OS detection |
-| -O –osscan-limit	| nmap 192.168.1.8 -O -osscan-limit	The TCP port scan will not attempt OS detection on those hosts that do not have at least one open and one closed port |
-| -O –osscan-guess	| nmap 192.168.1.8 -O -osscan-guess	Makes Nmap guess more competently |
+| -O	| nmap 192.168.1.8 -O	| TCP/IP stack fingerprinting is used for remote OS detection |
+| -O –osscan-limit	| nmap 192.168.1.8 -O -osscan-limit	| The TCP port scan will not attempt OS detection on those hosts that do not have at least one open and one closed port |
+| -O –osscan-guess	| nmap 192.168.1.8 -O -osscan-guess	| Makes Nmap guess more competently |
 | -O –max-os-tries	| nmap 192.168.1.8 -O -max-os-tries 1	| This set the maximum number “x” of OS detection attempts against a target |
 
 ## Timing and Performance
 
-| Switch	| Example	| Description |
+| Option	| Example	| Description |
 | --- | --- | ---|
 | -T0	| nmap 192.168.1.8 -T0	| Paranoid (0) Timing |
 | -T1	| nmap 192.168.1.8 -T1	| Sneaky (1) Timing |
@@ -93,22 +93,22 @@
 | -T4	| nmap 192.168.1.8 -T4	| Aggressive (4) Timing |
 | -T5	| nmap 192.168.1.8 -T5	| Insane (5) Timing |
 
-| Switch	| Example input	| Description |
+| Option	| Example input	| Description |
 | --- | --- | --- |
-| –host-timeout <time>	5s; 10m; 5h	| After this long, give up on the target |
-| –min-rtt-timeout/max-rtt-timeout/initial-rtt-timeout <time>	5s; 10m; 5h	| How long it takes to return a probe round trip |
-| –min-hostgroup/max-hostgroup <size<size>	20; 512	| Specifies host scan group sizes for parallelization |
-| –min-parallelism/max-parallelism <numprobes>	10; 1	| This probes parallelization |
-| –scan-delay/–max-scan-delay <time>	10ms; 5s; 10m; 3h	| This adjusts the delay between probes |
-| –max-retries <tries>	5	| Specifies the maximum number retries for port scan probe retransmissions |
-| –min-rate <number>	10	| This sends packets at a minimum speed of <number> per second |
-| –max-rate <number>	250	| This sends packets at a maximum speed of <number> per second |
+| –host-timeout <time>	| 5s; 10m; 5h	| After this long, give up on the target |
+| –min-rtt-timeout/max-rtt-timeout/initial-rtt-timeout <time>	| 5s; 10m; 5h	| How long it takes to return a probe round trip |
+| –min-hostgroup/max-hostgroup <size<size>	| 20; 512	| Specifies host scan group sizes for parallelization |
+| –min-parallelism/max-parallelism <numprobes>	| 10; 1	| This probes parallelization |
+| –scan-delay/–max-scan-delay <time>	| 10ms; 5s; 10m; 3h	| This adjusts the delay between probes |
+| –max-retries <tries>	| 5	| Specifies the maximum number retries for port scan probe retransmissions |
+| –min-rate <number>	| 10	| This sends packets at a minimum speed of <number> per second |
+| –max-rate <number>	| 250	| This sends packets at a maximum speed of <number> per second |
 
 ## NSE Scripts
 
-| Switch	| Example	| Description |
+| Option	| Example	| Description |
 | --- | --- | --- |
-| -sC	nmap 192.168.1.9 -sC	| Default NSE scripts are used to scan |
+| -sC	| nmap 192.168.1.9 -sC	| Default NSE scripts are used to scan |
 | –script default	| nmap 192.168.1.9 -script default	| This scans with default NSE scripts |
 | –script	| nmap 192.168.1.9 -script=banner	| Single script scanning |
 | –script	| nmap 192.168.1.9 -script=http*	| Wildcard scanning |
@@ -128,11 +128,11 @@
 | nmap -p80 -script http-unsafe-output-escaping interviewbit.com	| Vulnerabilities detection on cross websites |
 | nmap -p80 -script http-sql-injection interviewbit.com	| SQL injections detection |
 
-## Firewall/IDS Evasion
+## Firewall / IDS Evasion
 
-| Switch	| Example	| Description |
+| Option	| Example	| Description |
 | --- | --- | --- |
-| -f	| nmap 192.168.1.9 -f	Small fragmented IP packets are used in requested scans (including ping scans). More difficult for packet filters |
+| -f | nmap 192.168.1.9 -f	| Small fragmented IP packets are used in requested scans (including ping scans). More difficult for packet filters |
 | –mtu	| nmap 192.168.1.9 -mtu 32	| Set the offset size yourself |
 | -D	| nmap -D 192.168.9.102, 192.168.9.103, 192.168.9.104, 192.168.9.523	| Scans from the spoofed IPs are send via this |
 | -S	| nmap -S www.interviewbit.com www.scaler.com 	| Scans Scaler from InterviewBit |
@@ -142,7 +142,7 @@
 
 ## Output Options
 
-| Switch	| Example |	Description |
+| Option	| Example |	Description |
 | --- | --- | --- |
 | -oN	| nmap 192.168.1.9 -oN result.file	| Adds the output to the result.file that is in normal format |
 | -oX	| nmap 192.168.1.9 -oX result.file	| Adds the output to the result.file that is in XML format |
@@ -155,13 +155,14 @@
 | –reason	| nmap 192.168.1.9 -reason	| Shows the reason for the given state of the port |
 | –open	| nmap 192.168.1.9 -open	O| pen ports are shown |
 | –packet-trace	| nmap 192.168.1.9 -T4 -packet-trace	| Packets sent and received are shown |
-| –iflist	nmap -iflist	| Host interfaces and routes are shown |
-| –resume	| nmap -resume scaler.file	Scan is resumed |
+| –iflist	| nmap -iflist	| Host interfaces and routes are shown |
+| –resume	| nmap -resume scaler.file	| Scan is resumed |
 
 
 ## Other Useful Commands
-| --- | --- |
+
 | Command	| Description |
+| --- | --- |
 | nmap -iR 10 -PS22-25,80,113,1050,35000 -v -sn	| Only ports x are scanned, no ports are discovered |
 | nmap 192.168.1.9-1/25 -PR -sn -vv	| Only show ARP discovery on the local network, no port scan |
 | nmap -iR 20 -sn -traceroute	| No port scan - just traceroute to specific targets |
