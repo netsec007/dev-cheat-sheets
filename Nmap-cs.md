@@ -1,7 +1,7 @@
 ### NMAP Scan Types
 
 | Scan Type	| Details |
-| __________ | __________ |
+| ---------- | ---------- |
 | TCP SCAN | Data |
 
 
