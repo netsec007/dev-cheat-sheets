@@ -57,11 +57,11 @@
 | -p	| nmap 192.168.1.9 -p 27-100	| Scan a port range |
 | -p	| nmap 192.168.1.9 -p U:53,T:27-40,80	| Scans multiple TCP and UDP ports |
 | -p-	| nmap 192.168.1.9 -p- | Scan all ports |
-| -p	nmap 192.168.1.9 -p http,https	| Scans based on the service name |
-| -F	nmap 192.168.1.9 -F	| Scan 100 ports in fast manner |
-| –top-ports	nmap 192.168.1.9 -top-ports 1015	| Scans the top “x” ports |
-| -p-65535	nmap 192.168.1.8 -p-65535	| Skips the initial port in the range and starts the scan from port 1 |
-| -p0-	nmap 192.168.1.9 -p0-	| Skips end port in the range and starts the scan to go through to the port 65535 |
+| -p	| nmap 192.168.1.9 -p http,https	| Scans based on the service name |
+| -F	| nmap 192.168.1.9 -F	| Scan 100 ports in fast manner |
+| –top-ports	| nmap 192.168.1.9 -top-ports 1015	| Scans the top “x” ports |
+| -p-65535	| nmap 192.168.1.8 -p-65535	| Skips the initial port in the range and starts the scan from port 1 |
+| -p0-	| nmap 192.168.1.9 -p0-	| Skips end port in the range and starts the scan to go through to the port 65535 |
 
 ## Service and Version Detection
 
