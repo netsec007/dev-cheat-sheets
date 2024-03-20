@@ -1,5 +1,7 @@
 # dev-cheat-sheets
 
+[CheatSheetLinks](https://dev.to/lilxyzz/2024-cheat-sheet-collection-47h8?ref=dailydev)
+
 [NMAP Cheat Sheet](https://cs.slackbluetide.com/nmap-cs)
 
 [Docker Cheat Sheet](https://cs.slackbluetide.com/docker-cs)
