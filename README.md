@@ -10,6 +10,8 @@
 
 [Linux Systemd Commands](https://cs.slackbluetide.com/linux-systemd-cs)
 
+[Bash Cheat Sheet](https://cs.slackbluetide.com/bash-cs)
+
 [CSS Cheat Sheet](https://cs.slackbluetide.com/css-cs.md)
 
 [Bootstrap CheatSheet](https://www.interviewbit.com/bootstrap-cheat-sheet/)
