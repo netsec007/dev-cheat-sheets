@@ -1,23 +1,46 @@
 # dev-cheat-sheets
 
-[NMAP Cheat Sheet](https://cs.slackbluetide.com/nmap-cs)
-
+* [NMAP Cheat Sheet](https://cs.slackbluetide.com/nmap-cs)
 [Docker Cheat Sheet](https://cs.slackbluetide.com/docker-cs)
-
 [Linux Commands](https://cs.slackbluetide.com/linux-cs)
-
 [Linux Systemd Commands](https://cs.slackbluetide.com/linux-systemd-cs)
-
 [Bash Cheat Sheet](https://cs.slackbluetide.com/bash-cs)
-
 [CSS Cheat Sheet](https://cs.slackbluetide.com/css-cs.md)
-
 [Bootstrap CheatSheet](https://www.interviewbit.com/bootstrap-cheat-sheet/)
 
 ## External Links
 
+* [Cheatography](https://cheatography.com) - All the Cheatsheets
 * [CheatSheets.org](https://www.cheat-sheets.org)
-  
-[CheatSheetLinks](https://dev.to/lilxyzz/2024-cheat-sheet-collection-47h8?ref=dailydev)
-
-[Bootstrap CheatSheet](https://www.interviewbit.com/bootstrap-cheat-sheet/)
+* [CheatSheetLinks](https://dev.to/lilxyzz/2024-cheat-sheet-collection-47h8?ref=dailydev)
+* [NMAP CheatSheet](https://highon.coffee/blog/nmap-cheat-sheet/)
+* [Another NMAP CheatSheet](https://cdn.comparitech.com/wp-content/uploads/2019/06/Nmap-Cheat-Sheet-1.webp)
+* [Bootstrap CheatSheet](https://www.interviewbit.com/bootstrap-cheat-sheet/)
+* [Cron Cheat Sheet](https://healthchecks.io/docs/cron/)
+* [Linux Cheat Sheet](https://dev.to/rajani103/linux-cheat-sheet-1ied)
+* [CIDR CheetSheet](https://systembash.com/cidr-cheatsheet/)
+* [Docker Cheetsheet 1](https://github.com/wsargent/docker-cheat-sheet)
+* [Docker Cheetsheet 2](https://github.com/eon01/DockerCheatSheet) - Ultimate Docker Cheetsheet.
+* [Regex CheatSheet 1](https://cheatography.com/davechild/cheat-sheets/regular-expressions/)
+* [Regex Cheatsheet 2](https://www.petefreitag.com/cheatsheets/regex/)
+* [VIM Basic Commands](https://m4xshen.me/posts/vim-basic-commands/)
+* [GitHub CheatSheat](https://github.com/tiimgreen/github-cheat-sheet#readme)
+* [tldr](https://tldr.inbrowser.app)
+* [DevDocks](https://devdocs.io)
+* [Rico's CheatSheets](https://devhints.io)
+* [CheatSheets.org](https://www.cheat-sheets.org)
+* [OWASP CheatSheets](https://cheatsheetseries.owasp.org/Glossary.html)
+* [GNU/Linux.guru](https://gnulinux.guru/?bash)
+* [Python](https://www.pythoncheatsheet.org/)
+* [Markdown](https://www.markdownguide.org/cheat-sheet/)
+* [Git](https://education.github.com/git-cheat-sheet-education.pdf)
+* [Docker](https://dockerlabs.collabnix.com/docker/cheatsheet/)
+* [Linux Commands](https://medium.com/@rahuldesharaj92/basic-linux-commands-used-by-devops-engineers-in-day-to-day-activities-29593253f66b)
+* [Linux Directory Structure](https://dev.to/tiffanie_boreux/linux-cheatsheet-directory-structure-and-important-files-paths-4ke6)
+* [Linux Command Line](https://cheatography.com/davechild/cheat-sheets/linux-command-line/)
+* [Linux Cheat Sheet](https://dev.to/rajani103/linux-cheat-sheet-1ied)
+* [RegEx](https://www.rexegg.com/regex-quickstart.html)
+* [Linux/Unix Permission](https://www.thegeekdiary.com/linux-file-directory-permissions-cheat-sheet/)
+* [ChatGPT](https://quickref.me/chatgpt.html)
+* [TheList](https://dev.to/jon_snow789/introducing-50-carefully-curated-cheat-sheets-youll-ever-need-32fj)
+* [OverAPI](https://overapi.com) - Collecting All The Cheat Sheets
