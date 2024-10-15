@@ -1,7 +1,5 @@
 # dev-cheat-sheets
 
-[CheatSheetLinks](https://dev.to/lilxyzz/2024-cheat-sheet-collection-47h8?ref=dailydev)
-
 [NMAP Cheat Sheet](https://cs.slackbluetide.com/nmap-cs)
 
 [Docker Cheat Sheet](https://cs.slackbluetide.com/docker-cs)
@@ -13,5 +11,13 @@
 [Bash Cheat Sheet](https://cs.slackbluetide.com/bash-cs)
 
 [CSS Cheat Sheet](https://cs.slackbluetide.com/css-cs.md)
+
+[Bootstrap CheatSheet](https://www.interviewbit.com/bootstrap-cheat-sheet/)
+
+## External Links
+
+* [CheatSheets.org](https://www.cheat-sheets.org)
+  
+[CheatSheetLinks](https://dev.to/lilxyzz/2024-cheat-sheet-collection-47h8?ref=dailydev)
 
 [Bootstrap CheatSheet](https://www.interviewbit.com/bootstrap-cheat-sheet/)
